@@ -1,6 +1,6 @@
 /************SYNTAXE DE BASE **************/
 //1. Je vérifie toujours que ma page js et mon fichier html sont connectés:
-alert('ok js');
+// alert('ok js');
 
 //deux slashes pour un commentaire sur une ligne (ctrl +/)
 /*
