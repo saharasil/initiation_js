@@ -53,6 +53,8 @@ console.log(typeof prenom);
 var Age = 40;
 console.log(typeof Age);
 
+
+
 //-- Les variable de type FLOAT
 var uneDecimale = -2.984;
 console.log(typeof uneDecimale); //la console retourne "number" donc un / ou des chiffres 
@@ -72,7 +74,7 @@ const HOST ="localhost";
 const USER ="root";
 const PASSWORD ="mysql";
 /*
-Donc il est mpossible de faitre cela:
+Donc il est impossible de faitre cela:
 const USER ="sahar"
 la console me retournera=> SyntaxError: redeclaration of const USER 
 */

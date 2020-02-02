@@ -15,3 +15,4 @@ plusiaurs lignes
     => alert ('super, tu es arrivée sur mon site !')
     =>prompt ('Quastion : on est quel jour ?'); avec la fonction prompt je dialogue dirctement avec l'utilisateur
     */
+   
