@@ -8,7 +8,8 @@ console.log(monTableau);
 var myArray = new Array;
 console.log(myArray);
 // myArray et mon tableau sont des tableaux qui peuvent contenir plusieurs informations.
-// Affecter des valeurs au tableau,plusieurs méthode:
+
+// Affecter des valeurs au tableau, plusieurs méthode:
 // a-
 var nosPrenoms = ["Christian","Philippe","Mamadou"];
 console.log(nosPrenoms);
@@ -25,8 +26,8 @@ var Coordonnee = {
     age: 82
 };
 
-console.clear(); 
-// permet d'éffacer les lignes de débug qui précèdele console .clear();
+// console.clear(); 
+// permet d'éffacer les lignes de débug qui précède le console .clear();
 
 console.log(Coordonnee);
 // j'affiche toute les informations de mon tableau.
@@ -42,7 +43,7 @@ var listeDeNom = ["Mama","Benalal", "LIEGEARD"];
 var Annuaire = [listeDePrenom, listeDeNom];
 console.log(Annuaire);
 document.write(); //fonction native de JS qui permet d'inscrire un résultat directement sur la page html et non plus sur console
-document.write(Annuaire[0][2] + " " + Annuaire[1][2]);
+console.log(Annuaire[1][2] + " " + Annuaire[1][2]);
 document.write("<hr>");
 document.write(Annuaire[0][0]);
 document.write(" ");
@@ -113,7 +114,7 @@ console.log(array3Dimension[0].coordonnees.email);
 /**********************Ajouter un élément***********************/
 
 var couleur = ['rouge','jaune','vert'];
-console.clear();
+// console.clear();
 console.log(couleur);
 console.log(couleur.length); // length pour afficher sur ma console le nombre d'élément que contient mon tableau
 
